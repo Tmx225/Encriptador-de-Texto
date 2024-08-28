@@ -1,0 +1,194 @@
+
+.fondo-todo{
+
+    background-color: rgb(39, 61, 66);
+    
+}
+
+header{
+    text-align: center;
+
+}
+
+.logoPrincipal{
+
+width: 5%;
+margin: 45px 0 0 0 ;
+
+}
+
+.logoPrincipal:hover{
+
+    transform: rotate(20deg) scale(1.1);
+    opacity: 60%;
+    transition: 450ms;
+    
+    
+}
+
+h1{
+    text-decoration: aqua;
+    color: white;
+    text-shadow: 10px 10px 10px  rgb(5, 0, 0);
+    font-style: unset;
+}
+
+h1:hover{
+
+color: rgb(0, 255, 255);
+opacity: 60%;
+transition: 650ms;
+transform: scale(1.1);
+}
+
+
+.principal{
+
+    display:flex;
+    background-image: url(imagenes/tecno.png); 
+    
+}
+
+section{
+
+    padding: 12px;
+    margin-left: 10px;
+   
+   
+    
+}
+.seccion-one{
+
+background-color: rgb(0, 0, 0);
+border: none;
+border-radius: 10px;
+box-shadow: inset 0 0 30px rgb(12, 100, 116);
+margin-left: auto;
+}
+
+
+.mensaje-box{
+
+    background-color: rgb(0, 0, 0); 
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(12, 100, 116);
+    margin-right: auto;
+
+}
+
+
+
+textarea{
+
+width: 280px;
+height:450px;
+border: none;
+border-radius: 5px;
+box-shadow: inset 0 0 30px rgb(12, 100, 116);
+font-size: 20px;
+}
+
+.msg-encriptado{
+
+background-image: url(imagenes/muñeco.png);
+background-position: center;
+background-size: 310px;
+background-repeat: no-repeat;
+}
+
+.botones{
+
+text-align: center;
+padding: 10px;
+
+}
+
+.boton-dos{
+    
+    text-align: center;
+    padding: 10px;
+    
+    }
+
+
+button{
+margin-inline: 5px;    
+background-color: rgb(7, 73, 104);
+box-shadow: inset 0 0 30px rgb(0, 0, 0);
+padding: 10px;
+border: none;
+border-radius: 5px;
+border-style:outset;
+font-size: 15px;
+font-style:unset;
+color: white;
+
+}
+button:hover{
+
+color: rgb(136, 211, 211);
+transition: 700ms;
+transform:scale(1.1);
+
+}
+footer{
+
+text-align: center;
+margin: 20px 0 0 0;
+font-size: 15px;
+font-style: italic;
+color: aliceblue;
+
+}
+
+/*responsive query selector*/
+
+@media screen and (max-width:480px) {
+
+
+ .fondo-todo{
+
+background: rgb(28, 36, 37);
+
+ }   
+
+.principal{
+
+display:block;
+width: fit-content;
+margin: 0 auto;
+
+}
+.seccion-one{
+    
+margin-bottom: 10px;
+text-align: center;
+    
+}
+.mensaje-box{
+
+    width: fit-content;
+    margin: 0 auto;
+  
+}
+
+.logoPrincipal{
+
+    width: 15%;
+    margin: 45px 0 0 0 ;
+    
+    }
+h1{
+        text-decoration: aqua;
+        color: white;
+        text-shadow: 10px 10px 10px  rgb(5, 0, 0);
+        font-style: unset;
+        font-size: 25px;
+    }
+footer{
+
+margin-bottom: 20px;
+
+}
+}
